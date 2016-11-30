@@ -1,0 +1,1028 @@
+.ad {
+    width: 100%;
+    height: 73px;
+    background: white;
+}
+
+.ad-content {
+    line-height: 73px;
+    clear: both;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    ;
+}
+
+.ad-content img {
+    position: relative;
+    top: 18px;
+    float: left;
+}
+
+.ad-content p {
+    font-size: 16px;
+    float: left;
+    margin-left: 30px;
+    color: #5d5d5d;
+}
+
+.ad-child {
+    float: left;
+    width: 70%;
+    height: auto;
+    margin-left: 40px;
+}
+
+.ad-child li {
+    font-size: 14px;
+    line-height: 73px;
+    float: left;
+    overflow: auto;
+    width: 25%;
+    height: auto;
+    text-align: center;
+    color: #5d5d5d;
+}
+
+.ad-child li mark {
+    margin-left: 10px;
+    color: #f66;
+    background: none;
+}
+
+.gray {
+    width: 100%;
+    height: 50px;
+    background: #f5f5f5;
+}
+
+.our-product {
+    overflow: auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background: white;
+}
+
+.our-product h1,
+h2 {
+    text-align: center;
+}
+
+.our-product mark {
+    color: #c03;
+    background: none;
+}
+
+.our-product h1 {
+    font-family: yy;
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.our-product h2 {
+    font-family: yy;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.our-product ul {
+    overflow: auto;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    margin-top: 0;
+}
+
+@font-face {
+    font-family: yy;
+    src: url('../font/zzgfyy.otf');
+}
+
+.our-product ul li {
+    position: relative;
+    float: left;
+    overflow: auto;
+    width: 23%;
+    height: 220px;
+    margin-top: 30px;
+    margin-right: 1%;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.our-product ul li img {
+    float: right;
+    width: 45%;
+    height: 150px;
+    margin-top: 35px;
+    margin-right: 5%;
+}
+
+.our-product ul li p {
+    font-size: 18px;
+    position: absolute;
+    left: 5%;
+    width: 45%;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.our-product ul li p:first-of-type {
+    top: 70px;
+}
+
+.our-product ul li p:last-of-type {
+    top: 120px;
+}
+
+.another-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 55%!important;
+    height: 180px!important;
+    margin-right: 0!important;
+}
+
+.go_information {
+    font-family: yy;
+    font-size: 25px;
+    display: inline;
+    margin-bottom: 30px;
+    padding: 10px 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    border: none;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    outline: none;
+    background: #df1344;
+}
+
+.gray-big {
+    width: 100%;
+    height: 90px;
+    background: #f5f5f5;
+}
+
+.serve {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.triangle {
+    position: absolute;
+    top: 0;
+    left: 46.5%;
+    display: block;
+    border-top: 60px solid #f5f5f5;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+}
+
+.serve h1 {
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 80px;
+}
+
+.serve h1,
+h2 {
+    font-family: yy;
+    text-align: center;
+}
+
+.serve h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.serve mark {
+    color: #c03;
+    background: none;
+}
+
+.icon-ul {
+    overflow: auto;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 68px;
+}
+
+.icon-ul li {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 16%;
+    height: auto;
+    cursor: pointer;
+    text-align: center;
+}
+
+.icon-ul li p {
+    font-family: yy;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.go_details {
+    font-family: yy;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    letter-spacing: 3px;
+    color: white;
+    border: none;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    outline: none;
+    background: #df1344;
+}
+
+.icon-squre {
+    margin-top: 17px;
+}
+
+.icon-ul li:hover .icon-squre-fa {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    opacity: 1;
+}
+
+.icon-img {
+    margin-top: 30px;
+}
+
+.icon-squre-fa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    text-align: center;
+    opacity: 0;
+}
+
+.show_Honor {
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.show_Honor h3 {
+    font-family: yy;
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.show_Honor mark {
+    color: #c03;
+    background: none;
+}
+
+.show_honor_content {
+    position: relative;
+    overflow: auto;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.show_honor_content img:first-of-type {
+    float: left;
+}
+
+.show_honor_content ul li {
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.show_honor_content ul li img {
+    width: 100%;
+}
+
+.show_honor_content ul {
+    float: left;
+    width: 60%;
+}
+
+.show_down {
+    margin-top: 20px;
+}
+
+.first_show {
+    width: 20%;
+    height: 434px;
+}
+
+.show_down img {
+    height: 250px;
+}
+
+.show_top img {
+    height: 164px;
+}
+
+.last_show {
+    position: absolute;
+    right: 6.5%;
+    bottom: 0;
+}
+
+.show-right {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    float: right;
+    width: auto!important;
+    width: 17%!important;
+    margin-top: -20px;
+}
+
+.show-right li {
+    float: none!important;
+    width: 100%!important;
+    margin-top: 20px;
+}
+
+.show-right li img {
+    width: 100%!important;
+}
+
+.show-right li:nth-child(1) img {
+    height: 282px;
+}
+
+.show-right li:nth-child(2) img {
+    height: 150px;
+    margin-top: 1px;
+}
+
+.porduct_small {
+    line-height: 160px;
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    height: 160px;
+    background: #f5f5f5;
+}
+
+.porduct_small h5 {
+    font-family: yy;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.porduct_small mark {
+    color: #df1344;
+    background: none;
+}
+
+.porduct_small img {
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+.pruduct_down {
+    width: 100%;
+    height: 156px;
+    background: #e5e5e5;
+}
+
+.down_ul {
+    width: 100%;
+    text-align: center;
+}
+
+.down_ul li {
+    display: inline-block;
+    width: auto;
+}
+
+.down_ul li h6 {
+    font-family: yy;
+    font-size: 45px;
+    line-height: 156px;
+    float: left;
+    width: auto;
+    height: 100%;
+}
+
+.down_ul li p {
+    font-family: yy;
+    font-size: 14px;
+    float: left;
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 7px;
+    text-align: left;
+}
+
+.another_p {
+    margin-top: 5px!important;
+}
+
+.down_ul li mark {
+    color: #df1344;
+    background: none;
+}
+
+.more-p {
+    line-height: 20px!important;
+}
+
+.sec-li {
+    position: relative;
+    left: 5%;
+}
+
+.zixun {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    background: url('../images/bj_daili.png') center center no-repeat;
+}
+
+.zixun h1 {
+    font-family: yy;
+    font-size: 45px;
+    margin-top: 108px;
+    text-align: center;
+}
+
+.zixun mark {
+    color: #df1344;
+    background: none;
+}
+
+.zixun h2 {
+    margin-top: 101px;
+}
+
+.zixun h3 {
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    color: #f66;
+}
+
+.zixun h4 {
+    font-family: yy;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.zixun img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.zixun button {
+    font-family: yy;
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 10px 50px;
+    text-align: center!important;
+    letter-spacing: 3px;
+    color: white;
+    border: none;
+    outline: none;
+    background: #61c3fa;
+}
+
+.button-div {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cc {
+    width: 100%;
+    height: 50px;
+    background: #f5f5f5;
+}
+
+.partner {
+    overflow: auto;
+    width: 100%;
+    height: 580px;
+    background: url('../images/BJ_WS.png') center center no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.partner h1 {
+    font-family: yy;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #df1344;
+}
+
+.partner h2 {
+    font-size: 25px;
+}
+
+.partner ul {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.partner ul li {
+    float: left;
+    width: 11%;
+    height: 86px;
+    margin-top: 8px;
+    margin-left: 1%;
+}
+
+.partner ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.news {
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    background: #f5f5f5;
+}
+
+.news ul {
+    overflow: auto;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.news ul li {
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    background: white;
+}
+
+.black-father {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    opacity: 1;
+}
+
+.black {
+    width: 100%;
+    height: 160px;
+    opacity: .8;
+    background: #333;
+}
+
+.black-copy {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 160px;
+}
+
+.news-img {
+    float: left;
+    width: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.news-head {
+    overflow: auto;
+    width: auto;
+    height: auto;
+    color: #939393;
+}
+
+.news-head img {
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+mark {
+    color: #939393;
+    background: none;
+}
+
+.news-head time,
+.news-head mark,
+.news-head span {
+    position: relative;
+    top: -2px;
+}
+
+.news-first-p {
+    font-size: 30px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 40px;
+    color: #59c3d9;
+}
+
+.news-second-p {
+    font-size: 14px;
+    float: left;
+    overflow: hidden;
+    overflow: hidden;
+    width: 65%;
+    margin-top: 20px;
+    margin-left: 40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #9293a4;
+}
+
+.copy-one {
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+}
+
+.copy-two {
+    position: absolute;
+    top: -100px;
+    left: 20%;
+}
+
+.form {
+    position: absolute;
+    top: 63px;
+    right: 15%;
+}
+
+.form input {
+    float: left;
+    width: 180px;
+    height: 50px;
+    border: 4px solid #d8484d;
+    outline: none;
+}
+
+.form button {
+    font-family: yy;
+    font-size: 17px;
+    display: block;
+    float: left;
+    width: 110px;
+    height: 58px;
+    letter-spacing: 3px;
+    color: white;
+    border: 4px solid #d8484d;
+    border-left: none;
+    outline: none;
+    background: #f16166;
+}
+
+.serve-head {
+    display: block;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.serve-information {
+    position: relative;
+    clear: both;
+    overflow:hidden;
+    width: 100%;
+   max-height: 0px;
+    text-align: center;
+    background: #f5f5f5;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.toshowheight{
+    max-height: 10000px;
+ -webkit-transition: all 1s ease-in-out;
+ -moz-transition: all 1s ease-in-out;
+ transition: all 1s ease-in-out;
+}
+
+
+.serve-information .triangle {
+    border-top: 60px solid white;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+}
+
+.serve-head {
+    overflow: auto;
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.serve-head li {
+    display: inline-block;
+    overflow: auto;
+    width: 380px;
+    height: 380px;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    -moz-box-shadow: 0 3px 5px rgba(10, 0, 0, .2);
+    box-shadow: 0 3px 5px rgba(10, 0, 0, .2);
+}
+
+.serve-head li:nth-child(1) {
+    margin-right: 15%;
+}
+
+.head-icon {
+    margin-top: 80px;
+}
+
+.serve-head p {
+    font-family: yy;
+    font-size: 20px;
+    line-height: 30px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 25px;
+    color: #000;
+}
+
+.head-down-p {
+    margin-top: 0!important;
+}
+
+.serve-senond {
+    position: relative;
+    left: -5%;
+    overflow: hidden;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.serve-senond li {
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10%;
+    background: white;
+}
+
+.serve-senond li img {
+    float: left;
+    width: 20%;
+    margin: 40px 20px;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.serve-senond li:nth-child(2) {
+    margin-left: 10%;
+}
+
+.serve-senond li:nth-child(4) {
+    margin-left: 10%;
+}
+
+.serve-senond li:nth-child(2) img {
+    float: right;
+}
+
+.serve-senond li:nth-child(4) img {
+    float: right;
+}
+
+.center {
+    position: absolute;
+    top: 60px;
+    left: 42%;
+    width: 25%;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+    -moz-transition: transform 1s ease-in-out, -moz-transform 1s ease-in-out;
+    transition: -webkit-transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out, -moz-transform 1s ease-in-out;
+}
+
+.center:hover {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+
+.serve-senond li:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.second-one-p,
+.second-two-p {
+    font-family: yy;
+    float: left;
+    width: 60%;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.second-one-p {
+    font-size: 20px;
+    margin-top: 65px;
+    letter-spacing: 5px;
+    color: #333;
+}
+
+.second-two-p {
+    margin-top: 20px;
+    color: gray;
+}
+
+.button-group-second {
+    overflow: auto;
+    width: auto;
+    height: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.button-group-second button {
+    font-family: yy;
+    font-size: 20px;
+    padding: 10px 50px;
+    letter-spacing: 3px;
+    color: white;
+    border: none;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    outline: none;
+}
+
+.button-group-second button:first-of-type {
+    margin-right: 35px;
+    background: #df1344;
+}
+
+.button-group-second button:last-of-type {
+    background: #61c3fa;
+}
+
+.man {
+    overflow: auto;
+    width: 935px;
+    height: 255px;
+    margin: 0 auto;
+    background: url('../images/shenbao_icon_renren.png') no-repeat center center;
+    -moz-background-size: cover;
+         background-size: cover;
+}
+
+.man-first {
+    font-family: yy;
+    font-size: 20px;
+    width: 85%;
+    margin-top: 90px;
+    margin-left: 15%;
+    text-align: left;
+    color: #df1344;
+}
+
+.man-sec {
+    font-family: yy;
+    font-size: 20px;
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 15%;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.three {
+    overflow: auto;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.three li {
+    position: relative;
+    float: left;
+    overflow: auto;
+    width: 28%;
+    height: auto;
+    margin-left: 5%;
+    text-align: left;
+    -moz-border-radius: 13px;
+         border-radius: 13px;
+    background: white;
+}
+
+.three li p {
+    font-family: yy;
+    text-align: center;
+}
+
+.three li p:first-of-type {
+    font-size: 25px;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+
+.three li p:last-of-type {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.lx {
+    overflow: auto;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.lx li {
+    display: inline-block;
+    overflow: auto;
+    width: 32%;
+    height: 338px;
+    background: url('../images/tongzhi_bj_jvxing.png') no-repeat center center;
+    -moz-background-size: contain;
+         background-size: contain;
+}
+
+.lx li p {
+    font-family: ff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.lx li p:first-of-type {
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+
+.lx li hr {
+    display: inline-block;
+    width: 53%;
+    border: 1px dashed #ccc;
+}
+
+.lx li p:last-of-type {
+    font-size: 14px;
+    line-height: 25px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.serve-title{
+    font-size: 25px;
+    font-weight: 400;
+}

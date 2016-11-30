@@ -1,0 +1,153 @@
+.affrim-content{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	background: url('../images/bj_bjsucai.png') no-repeat;
+}
+.title{
+	text-align: center;
+	font-size: 25px;
+	color: #fa1617;
+	width: 75%;
+	position: relative;
+	margin: 20px auto;
+}
+.title:before,.title:after{
+	content: "";
+	width: 43%;
+	height: 1px;
+	display: block;
+	background: #777777;
+	position: absolute;
+	top: 15px;
+}
+.title:before{
+	left: 0;
+
+}
+.title:after{
+	right: 0;
+}
+h2{
+	text-align: center;
+	font-family: "宋体";
+	font-size: 16px;
+	font-weight: 400;
+	color: #4a4a4a;
+}
+.affrim-containr{
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 100px;
+	height: auto;
+}
+.affrim-containr li{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	border: 15px solid #dfdfdf;
+	margin-top: 20px;
+}
+.affrim-containr li div{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.left img{
+	margin-top: 70px;
+	margin-left: 15%;
+}
+.left p{
+	margin-left: 15%;
+	margin-top: 20px;
+	color: #58c5f0;
+	font-size: 30px;
+	font-family:"微软雅黑";
+}
+.right p:nth-child(1){
+	margin-top: 60px;
+	
+}
+.right p{
+	font-size: 16px;
+	width: 80%;
+	color: #4a4a4a;
+	line-height: 30px;
+	font-family: yy;
+}
+.right p:last-of-type{
+	margin-bottom: 50px;
+}
+@font-face {
+	font-family:yy;
+	src:url("../font/zzgfyy.otf");
+}
+.top{
+	width: 100%!important;
+	text-align: center;
+	color: #58c5f0;
+	font-size: 30px;
+	font-family:"微软雅黑";
+	height: auto;
+	overflow: auto;
+	padding-bottom: 35px;
+}
+.top img{
+	margin-top: 10px;
+	margin-right: 20px;
+	position: relative;
+	top: 35px;
+}
+.three-li p{
+	width: 98%;
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: yy;
+	margin-top: 5px;
+		color: #4a4a4a;
+	line-height: 30px;
+	height: auto;
+	overflow: auto;
+}
+.three-li p:nth-child(2){
+	margin-top:170px;
+}
+.three-li p:last-of-type{
+	margin-bottom: 25px;
+}
+.te-ind{
+	text-indent: 15px;
+}
+.ad-li{
+	border-top: none!important;
+	border-bottom: none!important;
+	border-left:15px solid white!important ;
+	border-right: 15px solid white!important;
+	position: relative;
+	overflow: auto;
+	height: 90px!important;
+}
+.ad-li p{
+	width: 95%;
+	margin: 20px auto;
+	font-size: 20px;
+	font-family: yy;
+	color: #5cbe45;
+	position: absolute;
+    z-index: 20;
+    line-height:25px;
+}
+.zz-zz{
+	width: 100%!important;
+	height: 100%!important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: #ffffff;
+	opacity: .5;
+}
+.ad-li +li{
+	margin-top: 0!important;
+}

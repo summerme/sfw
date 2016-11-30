@@ -1,0 +1,153 @@
+.head-img{
+	width: 100%;
+	margin: 20px auto;
+}
+body{
+	background: #eeeeee;
+}
+.containr{
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+	clear: both;
+	overflow: hidden;
+}
+.containr h1{
+	text-align: center;
+	width: 65%;
+	margin: 0 auto;
+	font-size: 35px;
+}
+hr{
+	width: 100%;
+	background: #c7c7c7;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+time{
+	text-align: center;
+	width: 100%;
+	display: block;
+	font-family: yy;
+	margin-bottom: 50px;
+}
+@font-face {
+	font-family:yy;
+	src:url(../font/zzgfyy.otf);
+}
+.containr p{
+	font-size: 16px;
+	font-family: "宋体";
+	width: 70%;
+	margin: 40px auto;
+	line-height: 35px;
+	text-indent: 30px;
+	color: #4a4a4a;
+}
+.containr p:first-of-type{
+	text-indent: 0!important;
+}
+.anob{
+	margin-top: 0px!important;
+	color: #ff3333!important;
+	font-size: 30px;
+	font-weight: bold;
+}
+.pl{
+	width: 50%;
+	margin: 0 auto;
+	height: 336px;
+	clear: both;
+}
+.pl  mark{
+	background: none;
+	color: #666666;
+	font-size: 16px;
+	margin-left: 20px;
+}
+.pl p{
+	font-size: 25px;
+	font-weight: bold;
+}
+textarea{
+	resize: none;
+	width: 100%;
+	background: none;
+	height: 180px;
+	outline: none;
+	margin-top: 10px;
+	border-bottom: none;
+}
+.downa{
+	width: 100%;
+	border: 1px solid rgb(169, 169, 169);
+	height: 50px;
+	position: relative;
+	top: -3px;
+
+}
+.yam{
+	width: 150px;
+	height: 40px;
+	outline: none;
+	margin-top: 3px;
+	margin-left: 5px;
+	float: left;
+}
+.downa img{
+	height: 42px;
+	margin-top: 4px;
+	float: left;
+	margin-left: 10px;
+}
+.downa button{
+	float: right;
+	padding: 13px 30px;
+	border: none;
+	margin-top: 3px;
+	margin-right: 10px;
+	color: white;
+	background: #8f8f8f;
+	font-size: 16px;
+	outline: none;
+}
+.plq{
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+	clear: both;
+}
+.plq ul{
+	width: 100%;
+}
+.plq li{
+	width: 100%;
+	margin-top: 20px;
+	height: auto;
+	overflow: auto;
+	position: relative;
+	background: #ffffff;
+}
+.plq li img{
+	width: 15%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	float: left;
+}
+.plq li p{
+	float: right;
+	width: 60%;
+	text-align: center;
+	margin-top: 15px;
+	margin-right: 20%;
+	line-height: 30px;
+}
+.plq li span{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 18px;
+	color: gray;
+}

@@ -1,0 +1,154 @@
+.affirm-index-head {
+    width: 100%;
+    margin: 10px 0;
+}
+
+body {
+    background: #eee;
+}
+
+.content {
+    overflow: auto;
+    width: 100%;
+    height: 634px;
+    margin-bottom: 90px;
+    background: url('../images/index.png') no-repeat center center;
+}
+
+.content h1 {
+    font-family: yy;
+    font-size: 45px;
+    margin-top: 34px;
+    text-align: center;
+    color: white;
+}
+
+@font-face {
+    font-family: yy;
+    src: url(../font/zzgfyy.otf);
+}
+
+.bg-father {
+    position: relative;
+    width: 75%;
+    height: 450px;
+    margin: 20px auto;
+}
+
+.bg {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    background: #000;
+}
+
+.bg-content {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    font-family: yy;
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
+    color: #49d7f4;
+}
+
+.bg-content ul {
+    overflow: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+}
+
+.bg-content ul li {
+    float: left;
+    width: 130px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 15%;
+    text-align: center;
+    background: url('../images/zhuanli_bj_weixuanjuxing.png') no-repeat;
+}
+
+.bg-content ul li a {
+    font-size: 20px;
+    line-height: 150px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.bg-content ul li:first-of-type {
+    background: url('../images/zhuanli_bj_yixuanjuxing.png') no-repeat;
+}
+.bg-content ul li a p{
+    line-height: 0px;
+    position: relative;
+    top: -20px;
+}
+.text{
+    width: 73%;
+    margin-left: 23%;
+    margin-right: 20px;
+    border: 15px solid #d6d6d6;
+    height: auto;
+    overflow: auto;
+    margin-bottom: 100px;
+}
+.text h1{
+    text-align: center;
+      margin-top: 100px;
+          font-family: yy;
+          position: relative;
+          color: #4a4a4a;
+          font-size: 30px;
+}
+.text mark{
+    background: none;
+    color: #cc0033;
+}
+.text h1:before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url('../images/zhuanli_icon_yuan.png') no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+.text h1:after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url('../images/zhuanli_icon_yuan.png') no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    transform: rotate(90deg);
+}
+.text p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #4a4a4a;
+    line-height: 30px;
+    text-indent: 30px;
+    margin-top: 30px;
+}
+.text p:last-of-type{
+    margin-bottom: 50px;
+}

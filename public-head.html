@@ -1,0 +1,92 @@
+<section class="carouse">
+    <div class="banner" id="banner-div">
+        <ul>
+            <li>
+                <a href="#"><img src="images/banner1.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/banner2.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/banner3.jpg"></a>
+            </li>
+        </ul>
+    </div>
+    <nav class="nav">
+        <ul class="nav-content">
+            <li><a href="index.html?id=0">首页</a></li>
+            <li><a href="business-area.html?id=1">业务领域</a></li>
+            <li><a href="affirm-index.html?id=2">高新认定</a>
+                <div class="father-bb">
+                    <nav class="affirm">
+                        <a href="enterprise-determination.html?id=2&cn=0">企业认定</a>
+                        <a href="Business—_review.html?id=2&cn=1">企业复审</a>
+                        <a href="business-audit.html?id=2&cn=2">企业审计</a>
+                        <a href="affirm.html?id=2&cn=3">企业备案</a>
+                        <a href="carrying-charge.html?id=2&cn=4">费用加计</a>
+                        <a href="Decided-to-declare.html?id=2&cn=5">认定申报</a>
+                    </nav>
+                    <div class="nav-bg"></div>
+                </div>
+            </li>
+            <li><a href="patent-consulting.html?id=3&sr=0">查询栏目</a>
+                <div class="fahter-aa">
+                    <div class="nav-bg"></div>
+                    <nav class="refer">
+                        <a href="patent-consulting.html?id=3&sr=0">专利查询</a>
+                        <a href="trademark-search.html?id=3&sr=1">商标查询</a>
+                        <a href="SearchRequest-Estimate.html?id=3&sr=2">版权查询</a>
+                    </nav>
+                </div>
+            </li>
+            <li><a href="sales-platform.html?id=4">交易平台</a></li>
+            <li><a href="news-information.html?id=5">新闻资讯</a></li>
+            <li><a href="Recruit-magi.html?id=6">招纳贤士</a></li>
+            <li><a href="contant_us.html?id=7">联系我们</a></li>
+        </ul>
+        <div class="phone-head">
+            <img src="images/icon_iphone24.png">
+        </div>
+    </nav>
+</section>
+<script type="text/javascript" src="js/banner.js"></script>
+<script type="text/javascript">
+function getURLParams(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) {
+        return unescape(r[2]);
+    }
+    return null;
+}
+var ida = getURLParams("id");
+$(".nav-content li").each(function(i) {
+    $(this).attr('id', i);
+    if ($(this).attr('id') == ida) {
+        $(this).css('borderBottom', '3px solid white');
+    }
+
+});
+if (ida == 2) {
+    $(".father-bb").show();
+}
+var cone = getURLParams("cn");
+var coneindex = null;
+$(".affirm a").each(function(j) {
+    $(this).attr('coneindex', j);
+    if ($(this).attr('coneindex') == cone) {
+        $(this).css('color', '#ff6666');
+    }
+});
+var sr=getURLParams("sr");
+var srindex=null;
+$(".refer a").each(function(e) {
+    $(this).attr('srindex', e);
+    if ($(this).attr('srindex') == sr) {
+        $(this).css('color', '#ff6666');
+    }
+});
+if(ida==3){
+    $(".fahter-aa").show();
+}
+</script>

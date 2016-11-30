@@ -1,0 +1,135 @@
+<!-- 专利查询 -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/head.css">
+    <link rel="stylesheet" type="text/css" href="css/foot.css">
+    <link rel="stylesheet" type="text/css" href="css/refer.css">
+</head>
+
+<body>
+    <header></header>
+    <div class="poad"></div>
+    <section class="refer-content">
+        <h1>纽乐康知识产权代理事务所</h1>
+        <h2>
+        <mark>权威</mark>
+        <mark>专业</mark>
+        <mark>高校</mark>
+        <mark>安全</mark></h2>
+        <div class="center">
+            <div class="bg"></div>
+            <div class="center-content">
+                <div class="left">
+                    <p><img src="images/chaxun_bj_xiafangjiantou.png" alt="">国内专利服务</p>
+                    <ul style="display: block;">
+                        <li><a href="">发明专利申请</a></li>
+                        <li><a href="">实用新型专利</a></li>
+                        <li><a href="">更多信息查询</a></li>
+                    </ul>
+                    <p><img src="images/chaxun_bj_zuojiantou.png" alt="">国际专利服务</p>
+                    <ul>
+                        <li><a href="">PCT途径专利申请</a></li>
+                        <li><a href="">巴黎公约途径申请</a></li>
+                        <li><a href="">香港专利申请</a></li>
+                        <li><a href="">美国专利申请</a></li>
+                    </ul>
+                    <p><img src="images/chaxun_bj_zuojiantou.png" alt="">专利管理交易</p>
+                    <ul>
+                        <li><a href="">专利许可合同备案</a></li>
+                        <li><a href="">专利著录项目变更</a></li>
+                        <li><a href="">专利权利恢复</a></li>
+                        <li><a href="">专利年费代缴</a></li>
+                        <li><a href="">专利评价报告</a></li>
+                    </ul>
+                    <p><img src="images/chaxun_bj_zuojiantou.png" alt="">专利案件维权</p>
+                    <ul>
+                        <li><a href="">国内专利维权</a></li>
+                        <li><a href="">专利无效宣告</a></li>
+                        <li><a href="">专利无效答辩</a></li>
+                    </ul>
+                </div>
+                <div class="right" style="text-align: center;">
+                    <h3>专利查询</h3>
+                    <img src="images/wz.png" alt="">
+                    <div class="top">
+                        <span class="top-span">期望申请类型</span>
+                        <ul class="right-ul">
+                            <li><span></span>发明专利</li>
+                            <li><span></span>实用新型专利</li>
+                            <li><span></span>外观专利</li>
+                        </ul>
+                    </div>
+                    <div class="down"><span class="top-span">专利名称</span>
+                        <input type="text" placeholder="请输入专利名称">
+                        <input type="text" placeholder="请输入您的手机号">
+                        <div type="button" class="serch">查询 <img src="images/chaxun_icon_sousuo.png" alt=""> </div>
+                    </div>
+                </div>
+                <ul class="topa">
+                    <li>
+                        <img src="images/chaxun_icon_geti.png" alt="">
+                        <p>个体注册</p>
+                    </li>
+                    <li>
+                        <img src="images/chaxun_icon_gongsi.png" alt="">
+                        <p>公司注册</p>
+                    </li>
+                    <li>
+                        <img src="images/chaxun_icon_guoji.png" alt="">
+                        <p>国际注册</p>
+                    </li>
+                    <li>
+                        <img src="images/chaxun_icon_sahngbiao.png" alt="">
+                        <p>商标设计</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="down-father">
+            <div class="bg-ad"></div>
+            <div class="con">
+                <ul class="icon">
+                    <li><img src="images/chaxun_icon_guanfang.png" alt="">
+                        <p>官方途径</p>
+                    </li>
+                    <li><img src="images/2chaxun_icon_dachauxn.png" alt="">
+                        <p>查询全面</p>
+                    </li>
+                    <li><img src="images/chaxun_icon_zhenshi.png" alt="">
+                        <p>结果真实</p>
+                    </li>
+                    <li><img src="images/chaxun_icon_duoyangxing.png" alt="">
+                        <p>平台多样</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <script type="text/javascript" src="js-plug-in/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js-plug-in/unslider.min.js"></script>
+    <script type="text/javascript" src="js/getpuplic.js"></script>
+    <script type="text/javascript" src="js/getwindow.js"></script>
+    <script type="text/javascript">
+    var tabindex = null;
+    $(".left p").each(function(i) {
+        $(this).attr('tabindex', i);
+        $(".left p").click(function() {
+            $(".left ul").hide();
+            $(".left p").children('img').attr('src', 'images/chaxun_bj_zuojiantou.png');
+            $(this).children('img').attr('src', 'images/chaxun_bj_xiafangjiantou.png');
+            $(".left ul").eq($(this).attr('tabindex')).show();
+        });
+    });
+    $(".right-ul li").click(function() {
+        $(".right-ul li").children('span').removeClass('active');
+        $(this).children('span').addClass('active');
+    });
+    </script>
+</body>
+
+</html>

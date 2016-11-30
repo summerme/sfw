@@ -1,0 +1,126 @@
+<!-- 商标查询 -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/head.css">
+    <link rel="stylesheet" type="text/css" href="css/foot.css">
+    <link rel="stylesheet" type="text/css" href="css/refer.css">
+</head>
+<style type="text/css">
+.right {
+    width: 100%;
+}
+
+.down {
+    margin-left: 8%;
+    width: 82%;
+}
+
+.down input {
+    width: 80%;
+}
+
+.serch {
+    right: 0!important;
+}
+
+.center {
+    height: 500px;
+}
+
+.refer-content {
+    height: 1100px;
+    background: url('images/shangbiao_chaxun_bj.png') no-repeat;
+    background-size: cover;
+}
+</style>
+
+<body>
+    <header></header>
+    <div class="poad"></div>
+    <section class="refer-content">
+        <h1>纽乐康知识产权代理事务所</h1>
+        <h2>
+        <mark>权威</mark>
+        <mark>专业</mark>
+        <mark>高校</mark>
+        <mark>安全</mark></h2>
+        <div class="center">
+            <div class="bg"></div>
+            <div class="center-content">
+                <div class="right" style="text-align: center;">
+                    <h3>商标查询</h3>
+                    <img src="images/wz.png">
+                    <div class="down">
+                        <input type="text" placeholder="请输入商标名称:中文/英文/数字均可">
+                        <input type="text" placeholder="请输入您的手机号">
+                        <div type="button" class="serch">查询 <img src="images/chaxun_icon_sousuo.png" alt=""> </div>
+                    </div>
+                </div>
+                <ul class="topa">
+                    <li>
+                        <img src="images/chaxun_icon_geti.png" alt="">
+                        <p>个体注册</p>
+                    </li>
+                    <li>
+                        <img src="images/chaxun_icon_gongsi.png" alt="">
+                        <p>公司注册</p>
+                    </li>
+                    <li>
+                        <img src="images/chaxun_icon_guoji.png" alt="">
+                        <p>国际注册</p>
+                    </li>
+                    <li>
+                        <img src="images/chaxun_icon_sahngbiao.png" alt="">
+                        <p>商标设计</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="down-father">
+            <div class="bg-ad"></div>
+            <div class="con">
+                <ul class="icon">
+                    <li><img src="images/chaxun_icon_guanfang.png" alt="">
+                        <p>官方途径</p>
+                    </li>
+                    <li><img src="images/2chaxun_icon_dachauxn.png" alt="">
+                        <p>查询全面</p>
+                    </li>
+                    <li><img src="images/chaxun_icon_zhenshi.png" alt="">
+                        <p>结果真实</p>
+                    </li>
+                    <li><img src="images/chaxun_icon_duoyangxing.png" alt="">
+                        <p>平台多样</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <script type="text/javascript" src="js-plug-in/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js-plug-in/unslider.min.js"></script>
+    <script type="text/javascript" src="js/getpuplic.js"></script>
+    <script type="text/javascript" src="js/getwindow.js"></script>
+    <script type="text/javascript">
+    var tabindex = null;
+    $(".left p").each(function(i) {
+        $(this).attr('tabindex', i);
+        $(".left p").click(function() {
+            $(".left ul").hide();
+            $(".left p").children('img').attr('src', 'images/chaxun_bj_zuojiantou.png');
+            $(this).children('img').attr('src', 'images/chaxun_bj_xiafangjiantou.png');
+            $(".left ul").eq($(this).attr('tabindex')).show();
+        });
+    });
+    $(".right-ul li").click(function() {
+        $(".right-ul li").children('span').removeClass('active');
+        $(this).children('span').addClass('active');
+    });
+    </script>
+</body>
+
+</html>

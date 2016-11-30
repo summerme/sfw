@@ -1,0 +1,50 @@
+<!-- 卖专利 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/head.css">
+    <link rel="stylesheet" type="text/css" href="css/foot.css">
+    <link rel="stylesheet" href="css/sales.css">
+</head>
+
+<body>
+    <header></header>
+    <div class="containr" style="text-align: center;">
+        <h1>交易平台</h1>
+        <h2>全方位的知识产权服务专家</h2>
+        <div class="top-po">
+            <img src="images/saleswz.png" style="margin-top: 20px;">
+            <label>专利名称
+                <input type="text" name="" value="" placeholder="请输入要卖的专利名称">
+            </label>
+            <label for="" id="shaixuan">专利类别<span style="width: 40%; display: inline-block;margin-left: 10px;text-align: center;"><div></div><mark>发明</mark><div></div><mark>实用新型</mark><div></div><mark>外观设计</mark></span></label>
+            <label>手机号码
+                <input type="text" name="" value="" placeholder="请输入您的手机号码">
+            </label>
+            <label class="another-label"><span>详细说明</span>
+                <textarea name="" id=""></textarea>
+            </label>
+            <div class="fabub"><span>我要发布</span>
+                <div class="fabu">我要发布</div>
+            </div>
+        </div>
+        <img src="images/saleng2.png" alt="" style="width: 85%">
+    </div>
+    <footer></footer>
+    <div class="poad"></div>
+    <script type="text/javascript" src="js-plug-in/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js-plug-in/unslider.min.js"></script>
+    <script src="js/getpuplic.js"></script>
+    <script type="text/javascript" src="js/getwindow.js"></script>
+    <script type="text/javascript">
+        $("#shaixuan div").on('click',  function() {
+             $("#shaixuan div").css('background', 'white');
+         $(this).css('background', '#f6666c');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+body{
+	background: #eeeeee;
+}
+ul{
+	list-style: none;
+}
+.r-m-ul{
+	width: 75%;
+	height: auto;
+	overflow: auto;
+	margin: 0 auto;
+}
+.r-m-ul li{
+	width: 100%;
+	border-bottom: 1px solid #b3b3b3;
+	height: auto;
+	overflow: auto;
+	margin-top: 80px;
+}
+.opdiv{
+	width: 60%;
+	height: auto;
+	overflow: auto;
+	float: left;
+}
+.img-div{
+	width: 30%;
+	height: auto;
+	overflow: auto;
+	float: left;
+}
+.img-div img{
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+.opdiv h1{
+	color: #62adcb;
+	font-weight: bold;
+	font-family: "宋体";
+	margin-top: 50px;
+}
+.opdiv p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #4a4a4a;
+	font-family: yy;
+}
+.opdiv p:first-of-type{
+	margin-top: 30px;
+}
+@font-face {
+	font-family:yy;
+	src:url("../font/zzgfyy.otf");
+}
+.page{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 150px;
+	margin-top: 50px;
+}
+.page li {
+	display: inline-block;
+	  padding: 10px 20px;
+	background: #ec7070;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0px 3px 50px rgba(255, 255, 255, 0.5) inset;
+}
+.ah li{
+  width: 75%;
+  margin-left: 20%;
+}
+.zixun {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    background: url('../images/bj_daili.png') center center no-repeat;
+}
+
+.zixun h1 {
+    font-family: yy;
+    font-size: 45px;
+    margin-top: 108px;
+    text-align: center;
+}
+
+.zixun mark {
+    color: #df1344;
+    background: none;
+}
+
+.zixun h2 {
+    margin-top: 101px;
+}
+
+.zixun h3 {
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    color: #f66;
+}
+
+.zixun h4 {
+    font-family: yy;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.zixun img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.zixun button {
+    font-family: yy;
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 10px 50px;
+    text-align: center!important;
+    letter-spacing: 3px;
+    color: white;
+    border: none;
+    outline: none;
+    background: #61c3fa;
+}

@@ -1,0 +1,42 @@
+ <div class="black-father">
+        <div class="black">
+        </div>
+        <div class="black-copy">
+            <img src="images/xiaoren.png" class="copy-one">
+            <img src="images/zhuanli.png" class="copy-two">
+            <div class="form">
+                <input type="text" placeholder="请留下您宝贵的电话">
+                <button type="button">立即咨询</button>
+            </div>
+            <img src="images/close.png" class="copy-three">
+        </div>
+    </div>
+    <div class="red"></div>
+    <div class="foot">
+        <div class="phone-num">
+            <img src="images/icon_iphone24.png">
+        </div>
+        <ul class="foot-head">
+            <li><a href="">公司简介</a></li>
+            <li><a href="">联系方式</a></li>
+            <li><a href="">招聘信息</a></li>
+            <li><a href="">意见反馈</a></li>
+            <li><a href="">企业查询</a></li>
+        </ul>
+        <span class="hr"></span>
+        <p class="white-p">专业的团队 为您提供优质的服务</p>
+        <p class="adress">公司地址：北京市海淀区东北旺西路8号中关村软件园华夏科技大厦227B</p>
+        <p class="down-p">版权信息：京ICP备05027431号 京公网安备110108002622号
+            <mark>联系电话：400-8080-794/86-010-62766645/86-010-62766646</mark>
+        </p>
+    </div>
+    <script type="text/javascript">
+            // 立即资讯点击关闭按钮
+    
+    $(".copy-three").click(function() {
+        $(".black-father").css('opacity', '0');
+        setTimeout(function() {
+            $(".black-father").css('display', 'none');
+        }, 1000)
+    });
+    </script>
